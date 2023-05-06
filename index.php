@@ -51,8 +51,8 @@ include __DIR__ . "/functions.php"
                     <button type="reset" class="btn btn-secondary">Annulla</button>   
                 </div>
             </form>
-            <div>
-                <span>La tua password è: <?= $password ?></span>
+            <div class="d-flex justify-content-center">
+                <span><strong>La tua password è: <?= $password ?></strong></span>
             </div>
         </div>
     </div>
